@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="description" content="">
+<meta name="GENERATOR" content="JustSystems Homepage Builder Version 21.0.1.0 for Windows">
+<title>Ideagear-Test</title>
+</head>
+<body>
+<a href="http://www.ideagear.jp/index.html">
+<button>パターン１</button>
+</a>
+<p><a href="http://www.ideagear.jp/ideagear2.html">
+<button>パターン２</button>
+</a></p>
+<a href="http://www.ideagear.jp/ideagear3.html">
+<button>パターン３</button>
+</a> <br>
+<br>
+身長：　　 <select name="height">
+    <option value="220">220</option>
+    <option value="219">219</option>
+	<option value="218">218</option>
+	<option value="217">217</option>
+	<option value="216">216</option>
+	<option value="215">215</option>
+	<option value="214">214</option>
+	<option value="213">213</option>
+	<option value="212">212</option>
+	<option value="211">211</option>
+	<option value="210">210</option>
+	<option value="209">209</option>
+	<option value="208">208</option>
+	<option value="207">207</option>
+	<option value="206">206</option>
+	<option value="205">205</option>
+	<option value="204">204</option>
+	<option value="203">203</option>
+	<option value="202">202</option>
+	<option value="201">201</option>
+	<option value="200">200</option>
+	<option value="190">199</option>
+	<option value="198">198</option>
+	<option value="197">197</option>
+	<option value="196">196</option>
+	<option value="195">195</option>
+	<option value="194">194</option>
+	<option value="193">193</option>
+	<option value="192">192</option>
+	<option value="191">191</option>
+	<option value="190">190</option>
+	<option value="189">189</option>
+	<option value="188">188</option>
+	<option value="187">187</option>
+	<option value="186">186</option>
+	<option value="185">185</option>
+	<option value="184">184</option>
+	<option value="183">183</option>
+	<option value="182">182</option>
+	<option value="181">181</option>
+	<option value="180">180</option>
+	<option value="179">179</option>
+    <option value="178">178</option>
+	<option value="177">177</option>
+	<option value="176">176</option>
+	<option value="175">175</option>
+	<option value="174">174</option>
+	<option value="173">173</option>
+	<option value="172">172</option>
+	<option value="171">171</option>
+	<option value="170">170</option>
+	<option value="169">169</option>
+	<option value="168">168</option>
+	<option value="167">167</option>
+	<option value="166">166</option>
+	<option value="165">165</option>
+	<option value="164">164</option>
+	<option value="163">163</option>
+	<option value="162">162</option>
+	<option value="161">161</option>
+	<option value="160">160</option>
+	<option value="159">159</option>
+	<option value="158">158</option>
+	<option value="157">157</option>
+	<option value="156">156</option>
+	<option value="155">155</option>
+	<option value="154">154</option>
+	<option value="153">153</option>
+	<option value="152">152</option>
+	<option value="151">151</option>
+	<option value="150">150</option>
+	<option value="149">149</option>
+	<option value="148">148</option>
+	<option value="147">147</option>
+	<option value="146">146</option>
+	<option value="145">145</option>
+	<option value="144">144</option>
+	<option value="143">143</option>
+	<option value="142">142</option>
+	<option value="141">141</option>
+	<option value="140">140</option>
+    </select>
+	 cm　
+<br />
+ 重り合計：
+    <select name="weight">
+    <option value="100">100</option>
+    <option value="95">95</option>
+	<option value="90">90</option>
+	<option value="85">85</option>
+	<option value="80">80</option>
+	<option value="75">75</option>
+	<option value="70">70</option>
+	<option value="65">65</option>
+	<option value="60">60</option>
+	<option value="55">55</option>
+	<option value="50">50</option>
+	<option value="45">45</option>
+	<option value="40">40</option>
+	<option value="35">35</option>
+	<option value="30">30</option>
+	<option value="25">25</option>
+	<option value="20">20</option>
+	<option value="15">15</option>
+	<option value="10">10</option>
+	<option value="5">5</option>
+	    </select>
+	 kg　　
+<br />
+<script type="text/javascript">
+function diag()
+{
+    alert("送信成功");    }
+ 
+</script>
+<p>
+<input type="submit" value="送信" name="Su1" onclick="diag()" />
+</p>
+</body>
+</html>

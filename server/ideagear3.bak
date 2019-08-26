@@ -1,0 +1,69 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html lang="ja">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta http-equiv="Content-Style-Type" content="text/css">
+<meta name="GENERATOR" content="JustSystems Homepage Builder Version 21.0.1.0 for Windows">
+<title></title>
+</head>
+<body>
+<script type="text/javascript">
+function diag()
+{
+    alert("送信成功");    }
+ 
+</script>
+<a href="http://www.ideagear.jp/ideagear1.html">
+<button>パターン１</button>
+</a>
+<p><a href="http://www.ideagear.jp/ideagear2.html">
+<button>パターン２</button>
+</a></p>
+<a href="http://www.ideagear.jp">
+<button>パターン３</button>
+</a>
+<br>
+身長：
+<br>
+<input type="radio" id="male" name="sex"  /><label for="male">150cm未满</label>   
+<input type="radio" id="female" name="sex" /><label for="female">150cm-160cm</label>
+<input type="radio" id="male" name="sex"  /><label for="male">160cm-170cm</label>
+<br>   
+<input type="radio" id="female" name="sex" /><label for="female">170cm-180cm</label>
+<input type="radio" id="male" name="sex"  /><label for="male">180cm-190cm</label>   
+<input type="radio" id="female" name="sex" /><label for="female">190cm以上</label>
+
+
+    
+<br>
+重り合計：
+<br>
+<input type="radio" id="male" name="sax"  /><label for="male">5kg</label>   
+<input type="radio" id="female" name="sax" /><label for="female">10kg</label>
+<input type="radio" id="male" name="sax"  /><label for="male">15kg</label>   
+<input type="radio" id="female" name="sax" /><label for="female">20kg</label>
+<input type="radio" id="male" name="sax"  /><label for="male">25kg</label>   
+<input type="radio" id="female" name="sax" /><label for="female">30kg</label>
+<br>
+<input type="radio" id="male" name="sax"  /><label for="male">35kg</label>   
+<input type="radio" id="female" name="sax" /><label for="female">40kg</label>
+<input type="radio" id="male" name="sax"  /><label for="male">45kg</label>   
+<input type="radio" id="female" name="sax" /><label for="female">50kg</label>
+<input type="radio" id="male" name="sax"  /><label for="male">55kg</label>   
+<input type="radio" id="female" name="sax" /><label for="female">60kg</label>
+<br>
+<input type="radio" id="male" name="sax"  /><label for="male">65kg</label>   
+<input type="radio" id="female" name="sax" /><label for="female">70kg</label>
+<input type="radio" id="male" name="sax"  /><label for="male">75kg</label>   
+<input type="radio" id="female" name="sax" /><label for="female">80kg</label>
+<input type="radio" id="male" name="sax"  /><label for="male">85kg</label>   
+<input type="radio" id="female" name="sax" /><label for="female">90kg</label>
+<br>
+<input type="radio" id="male" name="sax"  /><label for="male">95kg</label>   
+<input type="radio" id="female" name="sax" /><label for="female">100kg</label>
+
+
+<p><input type="submit" value="送信" onclick="diag()" />
+</p>
+</body>
+</html>
