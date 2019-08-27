@@ -1,0 +1,80 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html lang="ja">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta http-equiv="Content-Style-Type" content="text/css">
+<script src="https://cdn.staticfile.org/jquery/1.10.2/jquery.min.js"></script>
+<meta name="GENERATOR" content="JustSystems Homepage Builder Version 21.0.1.0 for Windows">
+<title></title>
+<script type="text/javascript">
+function diag()
+{
+    alert("送信成功");    }
+ 
+</script>
+<style>
+<!--
+        .btn{
+	width:110px;height: 64px;background-color: #FCFCFC;
+}
+        .onclick{
+	background-color: #D0D0D0;
+}
+        .noclick{
+	background-color: #FCFCFC;
+}
+
+    -->
+</style>
+</head>
+<body><a href="http://www.ideagear.jp/ideagear1.html">
+<button>パターン１</button>
+</a>
+<p><a href="http://www.ideagear.jp/ideagear2.html">
+<button>パターン２</button>
+</a>
+</p>
+<p><a href="http://www.ideagear.jp/ideagear3.html">
+<button>パターン３</button>
+</a>
+</p>
+<p><a href="http://www.ideagear.jp">
+<button>パターン４</button>
+</a>
+</p>
+
+<br>
+
+スピード（速度）：<div style="width:400px; height:100px;"id="jbl"></div>
+<script>
+$('<button class="btn">速い<br/>（瞬発力）</button>').appendTo($("#jbl"));
+       
+$('<button class="btn">中間<br/>（ボディメイク）</button>').appendTo($("#jbl"));
+        
+$('<button class="btn">遅い<br/>（パワー）</button>').appendTo($("#jbl"));
+       
+
+        $(".btn").click(function(){
+            $(this).removeClass("noclick").addClass("onclick");
+            $(this).siblings().removeClass("onclick").addClass("noclick");
+        });
+    </script>
+重り合計：<div style="width:500px; height:300px;"id="wrap"></div>
+<script>
+        for(var j,i = 1;i<21;i++){
+j=i*5;
+            $('<button class="btn">'+ j +'kg</button>').appendTo($("#wrap"));
+        };
+        $(".btn").click(function(){
+            $(this).removeClass("noclick").addClass("onclick");
+            $(this).siblings().removeClass("onclick").addClass("noclick");
+        });
+    </script>
+
+
+
+<br>
+<br>
+<p><input type="submit" value="送信" onclick="diag()" />
+</p></body>
+</html>

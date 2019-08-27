@@ -1,0 +1,10 @@
+HTTP POST
+ 
+header:
+Content-Type: "application/json"
+ 
+body:
+{
+"key1": value1,
+"key2": value2
+}

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="description" content="">
+<meta name="GENERATOR" content="JustSystems Homepage Builder Version 21.0.1.0 for Windows">
+<title>Ideagear-Test</title>
+</head>
+<body><a href="ideagear1.html">
+<button>パターン１</button>
+</a>
+<p><a href="ideagear2.html">
+<button>パターン２</button>
+</a></p>
+<a href="ideagear3.html">
+<button>パターン３</button>
+</a>
+<p><a href="http://www.ideagear.jp/ideagear4.html">
+<button>パターン４</button>
+</a>
+</p>
+</body>
+</html>
